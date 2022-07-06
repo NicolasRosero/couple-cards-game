@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="autor" content="Nicolas Rosero Correal" />
+    <meta name="description" content="Juego de parejas" />
+    <meta name="keywords" content="Parejas, Juegos, Juegos de parejas" />
+    <link rel="shortcut icon" href="./assets/img/poker-cards.png" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+    <title>Encuentra las parejas</title>
+  </head>
+  <body>
+    <!-- Tablero -->
+    <div class="board" id="board"></div>
+    <br />
+    <div>
+      <!-- Botón inicio de juego -->
+      <button class="start-game" id="button-game" onclick="startGame()" title="Iniciar Juego">
+        Iniciar juego
+      </button>
+
+      <!-- Boton reinicio -->
+      <button class="rest-game" title="Ranking de jugadores">
+        Ranking
+      </button>
+    </div>
+    <!-- Tiempo de terminación -->
+    <div class="time-end">
+      <h3 id="text-game"></h3>
+      <span id="time-game"></span>
+    </div>
+
+    <!-- JS -->
+    <script src="./js/game.js"></script>
+  </body>
+</html>
